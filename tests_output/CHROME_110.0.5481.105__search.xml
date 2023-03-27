@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="search"
+    errors="1" failures="0" hostname="" id="" package="search" skipped="0"
+    tests="1" time="7.673" timestamp="">
+  
+    <testcase name="Check Search" classname="search" time="7.673" assertions="2">
+
+    
+
+    
+    <error message="An error occurred while running .setValue() command on &lt;#name&gt;: Timed out while waiting for element &#34;#name&#34; with &#34;css selector&#34; to be present for 5000 milliseconds." type="error"><![CDATA[
+    Error
+    at Check Search (C:\Users\Администратор\Desktop\Практика\Супер\test\search.js:11:10)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+       NoSuchElementError
+   An element could not be located on the page using the given search parameters.
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    C:\Users\Администратор\Desktop\Практика\Супер\test\search.js:
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     9 | 
+     10 | // step 2- search
+     11 | browser .setValue(&#39;#name&#39;, &#39;Ручка&#39;) 
+     12 | 
+     13 | 
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
